@@ -1,7 +1,7 @@
 import clientPromise from "@/lib/mongodb"
 
-export async function POST() {
-    const body=requestAnimationFrame.json()
+export async function POST(request) {
+    const body=request.json()
     const client=await clientPromise;
     const db=client.db("bitlinks")
     const collection=db.collection("url")
