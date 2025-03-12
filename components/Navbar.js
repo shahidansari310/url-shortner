@@ -16,8 +16,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='flex gap-3'>
-                <Link href="/generate" ><button className='cursor-pointer border rounded-full p-[8px] bg-gradient-to-r from-emerald-900 to-emerald-900 shadow-xl'>Try Now</button></Link>
-                <Link href="https://github.com/shahidansari310" ><button className='cursor-pointer border rounded-full p-[8px] bg-gradient-to-r from-emerald-900 to-emerald-900 shadow-xl'>Github</button></Link>
+                <Link href="/generate" ><button className='cursor-pointer border rounded-lg p-[8px] bg-gradient-to-r from-emerald-900 to-emerald-900 shadow-xl'>Try Now</button></Link>
+                <Link href="https://github.com/shahidansari310" ><button className='cursor-pointer border rounded-lg p-[8px] bg-gradient-to-r from-emerald-900 to-emerald-900 shadow-xl'>Github</button></Link>
             </div>
         </div>
     )
