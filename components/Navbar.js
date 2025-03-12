@@ -11,8 +11,8 @@ const Navbar = () => {
             <div >
                 <ul className='flex gap-2 text-lg'>
                     <Link href="/">Home</Link>
-                    <Link href="/">About</Link>
-                    <Link href="/">Contact us</Link>
+                    <Link href="/About">About</Link>
+                    <Link href="/Contactus">Contact us</Link>
                 </ul>
             </div>
             <div className='flex gap-3'>
