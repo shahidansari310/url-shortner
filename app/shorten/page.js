@@ -12,7 +12,7 @@ const Shorten = () => {
       <h1>Generate your short Url</h1>
       <div>
         <input type="url" placeholder='Enter your Url' value={url} onChange={e=>{seturl(e.target.value)}} />
-        <input type="url" placeholder='Enter your Prefered short Url'  value={shorturl} onChange={e=>{setshorturl(e.target.value)}}/>
+        <input type="url" placeholder='Enter your Prefered short Url'  value={short} onChange={e=>{setshort(e.target.value)}}/>
         <button>Generate</button>
       </div>
     </div>
