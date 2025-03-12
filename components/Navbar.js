@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
     return (
-        <div className=' white bg-gradient-to-r from-emerald-500 to-emerald-900 flex justify-around  p-2 text-white'>
+        <div className='bg-gradient-to-r from-emerald-500 to-emerald-900 flex justify-around  p-2 text-white'>
             <div className='font-bold text-2xl flex gap-2'>
                 <img src="/search-engine.png" alt="" className='h-8' />
                 &diams; BitLinks &diams;
