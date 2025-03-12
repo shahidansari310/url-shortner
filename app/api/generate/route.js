@@ -6,6 +6,12 @@ export async function POST(request) {
     const db=client.db("bitlinks")
     const collection=db.collection("url")
 
+
+    const doc=collection.findOne({short:body.short})
+    if(doc){
+        return Response.json({success:false,error:true, message: 'Already exists' })
+    }
+    
     const result=await collection.insertOne({
         url:body.url,
         short:body.short
